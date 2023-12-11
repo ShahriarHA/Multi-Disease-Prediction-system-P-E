@@ -9,9 +9,9 @@ from torchvision import transforms
 
 
 # loading the saved pretrained model
-Pneumonia_model = pickle.load(open('D:/NEUB/MachineLearning/Stramlit_ Project/multi_disease_prediction/saved_models/pneumonia-disease-pretrained-mode.sav','rb'))
+Pneumonia_model = pickle.load(open('pneumonia-disease-pretrained-mode.sav','rb'))
 
-eye_disease_model = pickle.load(open('D:/NEUB/MachineLearning/Stramlit_ Project/multi_disease_prediction/saved_models/eye-disease-pretrained-mode.sav','rb'))
+eye_disease_model = pickle.load(open('eye-disease-pretrained-mode.sav','rb'))
 
 # models prediction function
 # pneumonia prediction
