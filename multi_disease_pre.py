@@ -1,6 +1,6 @@
 import pickle
 import streamlit as st
-from streamlit_option_menu import option_menu
+# from streamlit_option_menu import option_menu
 
 import torchvision
 from PIL import Image
