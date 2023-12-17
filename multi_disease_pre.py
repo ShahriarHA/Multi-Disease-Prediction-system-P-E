@@ -68,14 +68,15 @@ def predict_eye_disease_tf(image_path, model):
     return predicted_class
 
 
-# Placeholder models
+
 def load_pneumonia_cnn_model():
-    st.write("# Pneumonia CNN Model Code\n# Your CNN code here")
-    # Load your CNN model and perform predictions
+    # st.write("# Pneumonia CNN Model Code\n# Your CNN code here")
+    # Load CNN model and perform predictions
+    pass
 
 def load_pneumonia_transfer_learning_model():
     st.write("##### Transfer Learning Model useses DenseNet161 pretrained model")
-    # Load your transfer learning model and perform predictions
+    # Load transfer learning model and perform predictions
     chest_x_ray_image = st.file_uploader('Please uploade your chest x-ray image',type=['jpeg','png','jpg'])
     if chest_x_ray_image is not None:
         st.image(chest_x_ray_image, caption='Uploaded Image.')
@@ -91,12 +92,14 @@ def load_pneumonia_transfer_learning_model():
         st.warning('Please upload a chest x-ray image.')
 
 def load_pneumonia_naive_bayes_model():
-    st.write("# Pneumonia Naive Bayes Model Code\n# Your Naive Bayes code here")
-    # Load your naive bayes model and perform predictions
+    # st.write("# Pneumonia Naive Bayes Model Code\n# Your Naive Bayes code here")
+    # Load naive bayes model and perform predictions
+    pass
 
 def load_eye_disease_cnn_model():
-    st.write("# Eye Disease CNN Model Code\n# Your CNN code here")
-    # Load your CNN model and perform predictions
+    # st.write("# Eye Disease CNN Model Code\n# Your CNN code here")
+    # Load CNN model and perform predictions
+    pass
 
 def load_eye_disease_transfer_learning_model():
     st.write("##### Transfer Learning Model useses DenseNet161 pretrained model")
@@ -123,8 +126,9 @@ def load_eye_disease_transfer_learning_model():
 
 
 def load_eye_disease_naive_bayes_model():
-    st.write("# Eye Disease Naive Bayes Model Code\n# Your Naive Bayes code here")
+    # st.write("# Eye Disease Naive Bayes Model Code\n# Your Naive Bayes code here")
     # Load your naive bayes model and perform predictions
+    pass
 
 # navigation bar
 selected_disease = st.sidebar.selectbox('Select Disease', ['Pneumonia', 'Eye disease'])
