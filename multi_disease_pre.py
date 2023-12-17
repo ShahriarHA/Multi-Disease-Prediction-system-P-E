@@ -131,6 +131,10 @@ def load_eye_disease_naive_bayes_model():
     pass
 
 # navigation bar
+# styling title
+st.markdown("<style>h2{ color: white;text-shadow: 2px 2px 5px #000000;letter-spacing: 3px;word-spacing: 10px; }</style>", unsafe_allow_html=True)
+st.markdown("<u><h2>Multi Disease Prediction System</h2></u>", unsafe_allow_html=True)
+
 selected_disease = st.sidebar.selectbox('Select Disease', ['Pneumonia', 'Eye disease'])
 
 # Load models based on disease selection
