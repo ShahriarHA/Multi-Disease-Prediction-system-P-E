@@ -71,7 +71,7 @@ def predict_eye_disease_tf(image_path, model):
 
 def load_pneumonia_cnn_model():
     # st.write("# Pneumonia CNN Model Code\n# Your CNN code here")
-    # Load CNN model and perform predictions
+    # Load Kopil's CNN model and perform predictions
     pass
 
 def load_pneumonia_transfer_learning_model():
@@ -93,12 +93,12 @@ def load_pneumonia_transfer_learning_model():
 
 def load_pneumonia_naive_bayes_model():
     # st.write("# Pneumonia Naive Bayes Model Code\n# Your Naive Bayes code here")
-    # Load naive bayes model and perform predictions
+    # Load Kopil's naive bayes model and perform predictions
     pass
 
 def load_eye_disease_cnn_model():
     # st.write("# Eye Disease CNN Model Code\n# Your CNN code here")
-    # Load CNN model and perform predictions
+    # Load Kopil's CNN model and perform predictions
     pass
 
 def load_eye_disease_transfer_learning_model():
@@ -127,7 +127,7 @@ def load_eye_disease_transfer_learning_model():
 
 def load_eye_disease_naive_bayes_model():
     # st.write("# Eye Disease Naive Bayes Model Code\n# Your Naive Bayes code here")
-    # Load your naive bayes model and perform predictions
+    # Load Kopil's your naive bayes model and perform predictions
     pass
 
 # navigation bar
